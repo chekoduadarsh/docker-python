@@ -87,6 +87,7 @@ RUN apt-get install -y libfreetype6-dev && \
     pip install keras && \
     pip install keras-tuner && \
     pip install flake8 && \
+    pip install cudf
     # Pinned because it breaks theano test with the latest version (b/178107003).
     pip install theano-pymc==1.0.11 && \
     pip install python-Levenshtein && \
